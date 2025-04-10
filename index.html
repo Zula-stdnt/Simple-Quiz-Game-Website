@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Scam Awareness Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <h1>Anti-Scam Awareness Quiz</h1>
+
+    <!-- Username Input Section -->
+    <div class="container" id="username-section">
+        <h2>Enter Your Username</h2>
+        <input type="text" id="username" placeholder="Enter your name...">
+        <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Section -->
+    <div class="container" id="quiz-section" style="display: none;">
+        <h2 id="money-display">Money: ₱500</h2>
+        <p id="question-text"></p>
+        <div id="options-container"></div>
+    </div>
+
+    <!-- Result Section -->
+    <div class="container" id="result-section" style="display: none;">
+        <h2>Game Over</h2>
+        <h3 id="final-score"></h3>
+        <p id="funny-message"></p>
+        <button id="restart-btn">Restart Game</button>
+    </div>
+
+    <!-- Leaderboard Section -->
+    <div class="container" id="leaderboard-section" style="display: none;">
+        <h2>Leaderboard</h2>
+        <ul id="leaderboard"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
